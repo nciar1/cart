@@ -1,8 +1,5 @@
-import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
-import Stepper from 'react-stepper-horizontal';
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import axios from 'axios';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';

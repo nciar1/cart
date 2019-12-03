@@ -135,7 +135,7 @@ export default class CarController extends Component {
 
           </div></div>
   
-        <Button variant="danger" size="lg" block="block" type="submit">
+        <Button type="button" class="btn btn-primary" type="submit">
           Add to Cart
         </Button>
       </Form>

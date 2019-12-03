@@ -4,10 +4,24 @@ let mongoose = require('mongoose'),
 
 // product Model
 let productSchema = require('../Models/product');
+let customerSchema = require('../Models/Customers');
 
 // CREATE product
 router.route('/create-product').post((req, res, next) => {
   productSchema.create(req.body, (error, data) => {
+    if (error) {
+      return next(error)
+    } else {
+      console.log(data)
+      res.json(data)
+    }
+  })
+});
+
+
+// CREATE customer
+router.route('/create-customer').post((req, res, next) => {
+  customer.create(req.body, (error, data) => {
     if (error) {
       return next(error)
     } else {

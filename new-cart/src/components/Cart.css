@@ -12,7 +12,8 @@
 
   
   img {
-    max-width: 100%; }
+    max-width: 100%;
+  margin: 5px }
   
   .tab-content {
     overflow: hidden; }
@@ -109,6 +110,17 @@
     }
 
   
+
  
   
+  .btn-primary {
+    padding: .5em;
+    margin:5px;
+    
+}
+
+.btn-success {
+  padding: .5em;
+  margin:5px;
   
+}

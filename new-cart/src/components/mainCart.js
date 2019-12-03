@@ -1,10 +1,5 @@
-import Form from 'react-bootstrap/Form'
-import Button from 'react-bootstrap/Button';
-import axios from 'axios';
-import Card from 'react-bootstrap/Card'
+
 import React, { Component } from 'react'
-import CarController from "./Product/CarController";
-import HippoController from "./Product/HippoController"
 import productPhotos from './DSC_0056.JPG'
 import { Link } from 'react-router-dom';
 import {CartOverview} from "./CartOverview"
@@ -44,7 +39,7 @@ export default class mainCart extends Component {
 						
 						<br></br>
                         <Link to="/HippoController">
-  <button className="add-to-cart btn btn-default" type="button">View More</button>
+  <button button type="button" class="btn btn-primary">View More</button>
   </Link>
                            
 
@@ -71,7 +66,7 @@ export default class mainCart extends Component {
                        
 <br></br>
 						<Link to="/CarController">
-  <button className="add-to-cart btn btn-default" type="button">View More</button>
+  <button type="button" class="btn btn-primary">View More</button>
   </Link>
 					</div>
 				</div>
@@ -90,7 +85,7 @@ export default class mainCart extends Component {
 			<CartOverview/>
 			<div class="text-center">
 			<Link to="/CartList">
-  <button className="add-to-cart btn btn-default" type="button">Proceed to Cart</button>
+  <button type="button" class="btn btn-success">Proceed to Cart</button>
   </Link>
 		
 </div>

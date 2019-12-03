@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 import NotFound from "./views/NotFound"
 
-import { BrowserRouter as Router, Switch, Route, Redirect, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import HippoController from "./components/Product/HippoController";
 import EditCart from "./components/Product/edit-product.component";
